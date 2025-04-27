@@ -7,6 +7,7 @@ import PizzaDetails from "../pages/PizzaDetails";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
 import Contact from "../pages/Contact";
+import AboutUs from "../pages/AboutUs";
 
 const Routers = () => {
   return (
@@ -14,6 +15,7 @@ const Routers = () => {
       <Route path="/" element={<Navigate to="/home" />} />
       <Route path="/home" element={<Home />} />
       <Route path="/pizzas" element={<Pizzas />} />
+      <Route path="/aboutus" element={<AboutUs />} />
       <Route path="/cart" element={<Cart />} />
       <Route path='/contact' element={<Contact/>} />
       <Route path="/checkout" element={<Checkout />} />

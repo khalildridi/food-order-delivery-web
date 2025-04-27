@@ -261,3 +261,61 @@
       text-align: center;
     }
   }
+
+  /* Ajoutez ces styles à votre fichier products-page.css */
+
+/* Animation lors de la navigation entre les pages */
+.products__page {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Amélioration des liens */
+  .product__list__content h5 a,
+  .product__item h5 a {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .product__list__content h5 a::after,
+  .product__item h5 a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #FF5733;
+    transition: width 0.3s ease;
+  }
+  
+  .product__list__content h5 a:hover::after,
+  .product__item h5 a:hover::after {
+    width: 100%;
+  }
+  
+  /* Amélioration des boutons d'ajout au panier */
+  .addTOCART__btn {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .addTOCART__btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: left 0.5s ease;
+  }
+  
+  .addTOCART__btn:hover::before {
+    left: 100%;
+  }

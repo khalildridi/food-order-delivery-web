@@ -1,0 +1,214 @@
+/* HERO SECTION
+.hero__section {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: left;
+  }
+  .hero__content {
+    max-width: 550px;
+  }
+  .hero__title {
+    font-size: 3rem;
+    color: #343a40;
+    font-weight: bold;
+  }
+  .hero__btns .order__btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .hero__btns .order__btn:hover {
+    background-color: #e55e4f;
+  }
+  .hero__img img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  } */
+  
+  /* SERVICES SECTION */
+  .service__item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  .service__item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  .service__item h5 {
+    font-size: 1.5rem;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  .service__item p {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  /* POPULAR PIZZAS SECTION */
+  .pizza__item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  .pizza__item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  .pizza__img img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .pizza__price {
+    font-size: 1.25rem;
+    color: #ff6f61;
+    font-weight: bold;
+  }
+  .pizza__item button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .pizza__item button:hover {
+    background-color: #e55e4f;
+  }
+  
+  /* CALL TO ACTION SECTION */
+  .cta__section {
+    background-color: #ff6f61;
+    color: white;
+  }
+  .cta__section h3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .cta__section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  .cta__section .btn {
+    background-color: #fff;
+    color: #ff6f61;
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .cta__section .btn:hover {
+    background-color: #f8f9fa;
+    color: #ff6f61;
+  }
+  
+  /* TESTIMONIALS SECTION */
+  .testimonial__section {
+    background-color: #f8f9fa;
+  }
+  .testimonial__item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  .testimonial__item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  .testimonial__text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  .testimonial__rating {
+    font-size: 1.2rem;
+    color: #ff6f61;
+  }
+  
+  /* ABOUT US SECTION */
+  .about__section {
+    background-color: #f8f9fa;
+  }
+  .about__img img {
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: 400px;
+  }
+  .about__content h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  .about__content p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  .about__content .btn-outline-danger {
+    color: #ff6f61;
+    border-color: #ff6f61;
+    transition: all 0.3s ease;
+  }
+  .about__content .btn-outline-danger:hover {
+    background-color: #ff6f61;
+    color: white;
+  }
+  
+  /* NEWSLETTER SECTION */
+  .newsletter__section {
+    background-color: #f8f9fa;
+  }
+  .newsletter__form input {
+    padding: 12px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .newsletter__form button {
+    padding: 12px 30px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .newsletter__form button:hover {
+    background-color: #e55e4f;
+  }
+  
+  /* LOCATION SECTION */
+  .location__section {
+    background-color: #f8f9fa;
+  }
+  .location__item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  .location__item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  .location__item h5 {
+    font-size: 1.5rem;
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+  .location__item p {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
