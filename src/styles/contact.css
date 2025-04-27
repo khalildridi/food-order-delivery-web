@@ -1,0 +1,129 @@
+/* contact.css */
+
+/* Page globale */
+.contact__page {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact__page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact__page p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Container en deux colonnes */
+  .contact__container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  /* Colonne gauche : Illustration + Texte */
+  .contact__illustration {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+  }
+  
+  .contact__illustration h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact__illustration p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .contact__illustration img {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact__illustration img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Colonne droite : Formulaire */
+  .contact__form {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: left;
+  }
+  
+  .form__group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form__group label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact__form input,
+  .contact__form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact__form textarea {
+    height: 150px;
+  }
+  
+  .contact__form button {
+    padding: 1rem;
+    background-color: #3A99D9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact__form button:hover {
+    background-color: #2a7ab8;
+  }
+  
+  .contact__form button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive Mobile */
+  @media (max-width: 768px) {
+    .contact__container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact__illustration,
+    .contact__form {
+      text-align: center;
+    }
+  
+    .contact__illustration p {
+      text-align: center;
+    }
+  }
+  

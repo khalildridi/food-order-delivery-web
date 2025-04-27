@@ -1,4 +1,4 @@
-.cart__container {
+/* .cart__container {
   position: fixed;
   top: 0;
   left: 0;
@@ -84,4 +84,111 @@
   border-radius: 50%;
   color: #fff;
   cursor: pointer;
+} */.cart__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 99999;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  height: 100%;
+  background: #fff;
+  border-radius: 10px 0 0 10px;
+  box-shadow: -2px 0 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.cart__item-list {
+  height: calc(100vh - 160px);
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.cart__item-list h6 {
+  margin-top: 5rem;
+  text-align: center;
+  color: #888;
+  font-size: 1.2rem;
+}
+
+.cart__bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #FF5733;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.cart__bottom h6 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.cart__bottom h6 span {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.cart__bottom button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #fff;
+  color: #FF5733;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cart__bottom button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cart__bottom button:hover {
+  background: #FF8A50;
+}
+
+.cart__closeButton {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 10px;
+  background-color: #212245;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.cart__closeButton:hover {
+  background-color: #FF5733;
+}
+
+.cart__closeButton span i {
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 870px) {
+  .cart {
+    width: 25%;
+  }
 }

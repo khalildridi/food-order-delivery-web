@@ -67,3 +67,50 @@
     margin: 0 auto;
   }
 }
+
+
+/* SERVICES SECTION */
+.services__section {
+  background: #f9f9f9;
+}
+
+.service__card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.service__card:hover {
+  transform: translateY(-10px);
+}
+
+.service__card h3 {
+  color: #ff5722;
+  margin-bottom: 15px;
+}
+
+/* CTA SECTION */
+.cta__section {
+  background: #ff5722;
+  color: #fff;
+  border-radius: 10px;
+  margin: 50px 0;
+  padding: 50px 30px;
+}
+
+.cta__btn {
+  background: #fff;
+  color: #ff5722;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.cta__btn:hover {
+  background: #ffc0a3;
+  color: #fff;
+}
